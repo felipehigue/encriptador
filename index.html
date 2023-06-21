@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="csss/style.css">
+    <title>encriptador</title>
+</head>
+
+<body>
+
+    <nav class="nav">
+        <img class="logo" src="imagenes/logoalura.png" alt="logo alura latam">
+        <h2 class="nav_titulo ">encriptador</h2>
+    </nav>
+
+    <section class="contenido">
+        <div class="cajatextocon">
+            <textarea class="cajatexto" name="encriptador" id="encriptador" rows="70" cols="60"></textarea>
+        </div>
+        <div class="alerta">
+            <img class="alerta_imagen" src="imagenes/alerta.webp" alt="">
+            <p>solo minisculas sin acento</p>
+        </div>
+        <div class="caja-botones">
+            <button type="button" class="boton_encriptar" value="encriptar">encriptar</button>
+            <button class="boton_desencriptar " type="button" value="descriptar">desencriptar</button>
+
+        </div>
+
+        <div class="seccion2">
+            <textarea name="texto_final" cols="30" rows="10" class="texto_final"></textarea>
+            <div class="ilustracion">
+                <img src="imagenes/ilustracion.jpeg" alt="">
+            </div>
+            <div class="parrafo">
+                <h3>ningun mensaje<br/>fue encontrado</h3>
+            </div>
+            <div class="boton_copiar">
+                <button class="copiar" type="button" value="boton_copiar ">copiar</button>
+            </div>
+            <div class="contenedor_resultado">
+                <p class="texto_resultado">
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <img class="logo" src="imagenes/logoalura.png" alt="logo alura latam">
+    </section>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
